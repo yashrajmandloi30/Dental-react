@@ -68,12 +68,12 @@ const Carousel = () => {
 
   return (
     <div
-      className="relative overflow-hidden min-h-[80vh] group"
+      className="relative overflow-hidden h-[60vh] sm:h-[70vh] md:h-[80vh] group"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
       {/* Slides */}
-      <div className="relative w-full h-[80vh]">
+      <div className="relative w-full h-full">
         {slides.map((slide, index) => (
           <div
             key={slide.id}
@@ -84,8 +84,14 @@ const Carousel = () => {
             <img
               src={slide.image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
             />
+
+            {/* Optional Text Overlay */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 sm:px-8 md:px-12 bg-black/30">
+              <h2 className="text-xl sm:text-2xl md:text-4xl font-bold">{slide.heading}</h2>
+              <p className="text-sm sm:text-base md:text-lg mt-2">{slide.subheading}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -93,17 +99,18 @@ const Carousel = () => {
       {/* Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full text-white hover:bg-[#07a1d9] opacity-0 group-hover:opacity-100 transition"
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/10 p-2 sm:p-3 rounded-full text-white hover:bg-[#07a1d9] opacity-0 group-hover:opacity-100 transition"
         aria-label="Previous"
       >
-        <ChevronLeft />
+        <ChevronLeft className="w-4 h-4 sm:w-6 sm:h-6" />
       </button>
+
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 p-3 rounded-full text-white hover:bg-[#07a1d9] opacity-0 group-hover:opacity-100 transition"
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/10 p-2 sm:p-3 rounded-full text-white hover:bg-[#07a1d9] opacity-0 group-hover:opacity-100 transition"
         aria-label="Next"
       >
-        <ChevronRight />
+        <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6" />
       </button>
 
       {/* Indicators */}
