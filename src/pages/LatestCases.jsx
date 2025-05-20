@@ -73,12 +73,12 @@ const LatestCases = () => {
     <section id="news" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10" data-aos="fade-up">
-          <h1 className="text-3xl font-bold text-[#07a1d9]">Latest Cases</h1>
+          <h1 className="text-3xl font-bold text-[#9b6a55]">Latest Cases</h1>
         </div>
         {casesData.map((category, index) => (
           <div key={index} className="mb-16">
             <h3
-              className="text-2xl font-semibold mb-6 text-gray-800 border-l-4 pl-3 border-[#07a1d9]"
+              className="text-2xl font-semibold mb-6 text-gray-800 border-l-4 pl-3 border-[#9b6a55]"
               data-aos="fade-right"
             >
               {category.title}

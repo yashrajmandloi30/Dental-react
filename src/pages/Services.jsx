@@ -100,7 +100,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold">
-            Our Service <span className="text-[#07a1d9]">Keeps you Smile</span>
+            Our Service <span className="text-[#9b6a55]">Keeps you Smile</span>
           </h2>
           <p className="mt-2 text-gray-600">
             Discover the complete range of dental services offered at{" "}
@@ -115,7 +115,7 @@ const Services = () => {
             <div
               key={index}
               data-aos={service.animation}
-              className="bg-white border rounded-xl p-4 shadow-md relative"
+              className="bg-white border-2 rounded-xl hover:border-[#9b6a55] p-4 shadow-md relative"
             >
               <div className="flex justify-center items-center mb-4">
                 <img
@@ -137,7 +137,7 @@ const Services = () => {
         </div>
 
         <div
-          className="text-center text-[#07a1d9] mt-10"
+          className="text-center text-[#9b6a55] mt-10"
           data-aos="fade-right"
           data-aos-duration="1200"
         >

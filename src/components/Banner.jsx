@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 px-4">
         {/* Opening Hours */}
         <div
-          className="bg-[#07a1d9] p-6 text-white space-y-4 min-h-[300px] rounded-xl shadow-lg"
+          className="bg-[#9b6a55] p-6 text-white space-y-4 min-h-[300px] rounded-xl shadow-lg"
           data-aos="zoom-in"
         >
           <h3 className="text-2xl font-bold">Opening Hours</h3>
@@ -25,7 +25,7 @@ const Banner = () => {
           </div>
           <a
             href="#"
-            className="inline-block bg-white text-[#07a1d9] px-4 py-2 rounded mt-4"
+            className="inline-block bg-white text-[#f5ba98] px-4 py-2 rounded mt-4"
           >
             Appointment
           </a>
@@ -33,7 +33,7 @@ const Banner = () => {
 
         {/* Search A Doctor */}
         <div
-          className="bg-gray-900 p-6 text-white space-y-4 min-h-[300px] rounded-xl shadow-lg"
+          className="bg-[#9b6a55] p-6 text-white space-y-4 min-h-[300px] rounded-xl shadow-lg"
           data-aos="zoom-in"
           data-aos-delay="200"
         >
@@ -58,7 +58,7 @@ const Banner = () => {
 
         {/* Make Appointment */}
         <div
-          className="bg-gray-700 p-6 text-white space-y-4 min-h-[300px] rounded-xl shadow-lg"
+          className="bg-[#9b6a55] p-6 text-white space-y-4 min-h-[300px] rounded-xl shadow-lg"
           data-aos="zoom-in"
           data-aos-delay="400"
         >

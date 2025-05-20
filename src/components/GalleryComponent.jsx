@@ -61,7 +61,7 @@ const GalleryComponent = () => {
   return (
     <div className="container mx-auto py-12 px-4">
        <div className="text-center mb-10">
-          <h2 className="text-white bg-[#07a1d9] text-3xl py-2 px-2 rounded-xl font-bold inline-block mx-auto">
+          <h2 className="text-white bg-[#9b6a55] text-3xl py-2 px-2 rounded-xl font-bold inline-block mx-auto">
              Our Gallery
           </h2>
         </div>
@@ -70,7 +70,7 @@ const GalleryComponent = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="cursor-pointer"
+            className="cursor-pointer border-4 hover:border-[#9b6a55] "
             onClick={() => handleImageClick(image, index)}
             data-aos="fade-up"
             data-aos-duration="500"

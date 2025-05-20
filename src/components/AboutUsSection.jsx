@@ -14,7 +14,7 @@ const AboutUsSection = () => {
       content: (
         <p>
           Step into the world of{' '}
-          <span className="text-[#07a1d9] font-semibold">Shri Balaji Multispeciality Dental Clinic</span>, where your smile is our priority. We combine
+          <span className="text-[#9b6a55] font-semibold">Shri Balaji Multispeciality Dental Clinic</span>, where your smile is our priority. We combine
           advanced technology with patient-centered care to ensure that every visit is a comfortable and satisfying experience.
         </p>
       ),
@@ -25,7 +25,7 @@ const AboutUsSection = () => {
       content: (
         <p>
           At{' '}
-          <span className="text-[#07a1d9] font-semibold">Shri Balaji Dental Clinic</span>, we go beyond clinical expertise with compassion and innovation. Our
+          <span className="text-[#9b6a55] font-semibold">Shri Balaji Dental Clinic</span>, we go beyond clinical expertise with compassion and innovation. Our
           mission is to improve lives one smile at a time by providing personalized dental care in a safe and welcoming environment.
         </p>
       ),
@@ -99,13 +99,13 @@ const AboutUsSection = () => {
           />
         </div>
         <div className="lg:w-7/12 bg-white shadow-lg p-6 rounded">
-          <ul className="flex space-x-6 border-b mb-4 text-sm font-semibold text-[#07a1d9]">
+          <ul className="flex space-x-6 border-b mb-4 text-sm font-semibold text-[#9b6a55]">
             {tabs.map(tab => (
               <li key={tab.id}>
                 <button
                   onClick={() => setActiveTab(tab.id)}
                   className={`py-2 border-b-2 transition duration-200 ${
-                    activeTab === tab.id ? 'border-[#07a1d9]' : 'border-transparent'
+                    activeTab === tab.id ? 'border-[#9b6a55]' : 'border-transparent'
                   }`}
                 >
                   {tab.title}
@@ -129,7 +129,7 @@ const AboutUsSection = () => {
             Meet Our <span className="text-[#7a4f2c]">Experienced Dentists</span>
           </h2>
           <div
-            className="w-16 h-1 bg-[#07a1d9] mx-auto mb-12"
+            className="w-16 h-1 bg-[#9b6a55] mx-auto mb-12"
             data-aos="zoom-in"
           ></div>
 
@@ -150,7 +150,7 @@ const AboutUsSection = () => {
                   </div>
                   <div className="p-4 md:w-1/2 flex flex-col justify-between">
                     <div>
-                      <h3 className="text-2xl font-bold text-[#07a1d9] mb-1">
+                      <h3 className="text-2xl font-bold text-[#9b6a55] mb-1">
                         {doc.name}
                       </h3>
                       <p className="text-sm font-semibold text-gray-600 mb-1">
@@ -164,7 +164,7 @@ const AboutUsSection = () => {
                     </div>
                     <p className="text-sm text-gray-600 mt-4">{doc.details}</p>
 
-                    <div className="flex space-x-4 mt-4 text-[#07a1d9] text-lg">
+                    <div className="flex space-x-4 mt-4 text-[#9b6a55] text-lg">
                       <a href="#" aria-label="Facebook">
                         <Facebook className="w-5 h-5" />
                       </a>

@@ -10,12 +10,12 @@ const ExpertiseDentalServices = () => {
     >
       <div className="container mx-auto px-4" data-aos="fade-up" data-aos-duration="1500">
         <div className="section-title text-center mb-10">
-          <h2 className="text-3xl font-semibold text-[#07a1d9] uppercase mb-4">
+          <h2 className="text-3xl font-semibold text-[#9b6a55] uppercase mb-4">
             Our Expertise Dental Services
           </h2>
-          <div className="title-icon mb-4">
+          {/* <div className="title-icon mb-4">
             <img className="mx-auto" src="assets/images/title-icon.png" alt="Icon" loading="lazy" />
-          </div>
+          </div> */}
           <p className="text-lg text-gray-700">
             Discover the complete range of dental services offered at{' '}
             <strong className="font-bold text-black">Shri Balaji Multispeciality Dental Clinic</strong>. Our
@@ -29,7 +29,7 @@ const ExpertiseDentalServices = () => {
               <a
                 href="#tab11"
                 data-toggle="tab"
-                className="text-center block p-4 hover:bg-[#07a1d9] hover:text-white rounded-lg transition duration-300"
+                className="text-center block p-4 hover:bg-[#9b6a55] hover:text-white rounded-lg transition duration-300"
               >
                 <img
                   className="service-images rounded-full w-32 h-32 object-cover mx-auto"
@@ -43,7 +43,7 @@ const ExpertiseDentalServices = () => {
               <a
                 href="#tab12"
                 data-toggle="tab"
-                className="text-center block p-4 hover:bg-[#07a1d9] hover:text-white rounded-lg transition duration-300"
+                className="text-center block p-4 hover:bg-[#9b6a55] hover:text-white rounded-lg transition duration-300"
               >
                 <img
                   className="service-images rounded-full w-32 h-32 object-cover mx-auto"
@@ -57,7 +57,7 @@ const ExpertiseDentalServices = () => {
               <a
                 href="#tab13"
                 data-toggle="tab"
-                className="text-center block p-4 hover:bg-[#07a1d9] hover:text-white rounded-lg transition duration-300"
+                className="text-center block p-4 hover:bg-[#9b6a55] hover:text-white rounded-lg transition duration-300"
               >
                 <img
                   className="service-images rounded-full w-32 h-32 object-cover mx-auto"
@@ -71,7 +71,7 @@ const ExpertiseDentalServices = () => {
               <a
                 href="#tab14"
                 data-toggle="tab"
-                className="text-center block p-4 hover:bg-[#07a1d9] hover:text-white rounded-lg transition duration-300"
+                className="text-center block p-4 hover:bg-[#9b6a55] hover:text-white rounded-lg transition duration-300"
               >
                 <img
                   className="service-images rounded-full w-32 h-32 object-cover mx-auto"
@@ -85,7 +85,7 @@ const ExpertiseDentalServices = () => {
               <a
                 href="#tab15"
                 data-toggle="tab"
-                className="text-center block p-4 hover:bg-[#07a1d9] hover:text-white rounded-lg transition duration-300"
+                className="text-center block p-4 hover:bg-[#9b6a55] hover:text-white rounded-lg transition duration-300"
               >
                 <img
                   className="service-images rounded-full w-32 h-32 object-cover mx-auto"

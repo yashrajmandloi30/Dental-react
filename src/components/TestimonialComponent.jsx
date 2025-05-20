@@ -113,7 +113,7 @@ const Testimonial = () => {
     <section className="py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-white bg-[#07a1d9] text-3xl py-2 px-2 rounded-xl font-bold inline-block mx-auto">
+          <h2 className="text-white bg-[#9b6a55] text-3xl py-2 px-2 rounded-xl font-bold inline-block mx-auto">
             What Our Patients Say
           </h2>
         </div>
@@ -130,15 +130,15 @@ const Testimonial = () => {
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-24 h-24 rounded-full object-cover border-4 border-[#07a1d9]"
+                  className="w-24 h-24 rounded-full object-cover border-4 border-[#9b6a55]"
                 />
               </div>
-              <Quote className="text-[#07a1d9] w-6 h-6 mx-auto mb-3" />
+              <Quote className="text-[#9b6a55] w-6 h-6 mx-auto mb-3" />
               <p className="text-gray-700 italic mb-4 line-clamp-4">
                 "{testimonial.text}"
               </p>
-              <hr className="w-1/4 mx-auto border-[#07a1d9] mb-2" />
-              <h4 className="text-lg font-semibold text-[#07a1d9]">
+              <hr className="w-1/4 mx-auto border-[#9b6a55] mb-2" />
+              <h4 className="text-lg font-semibold text-[#9b6a55]">
                 {testimonial.name}
               </h4>
               <p className="text-gray-500 text-sm">{testimonial.title}</p>

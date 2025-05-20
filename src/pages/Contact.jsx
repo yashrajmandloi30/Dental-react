@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="contact" className="bg-gray-100 py-12 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h3 className="text-4xl font-bold text-[#07a1d9]">
+          <h3 className="text-4xl font-bold text-[#9b6a55]">
             {/* <Phone className="inline mr-2" style={{ fontSize: '40px', color: '#07a1d9' }} /> */}
             Contact Us
           </h3>
@@ -16,34 +16,34 @@ const Contact = () => {
         <div className="flex flex-wrap">
           <div className="lg:w-1/2 w-full p-4" data-aos="fade-right">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h4 className="text-[#07a1d9] text-2xl font-semibold mb-4">Opening Hours</h4>
+              <h4 className="text-[#9b6a55] text-2xl font-semibold mb-4">Opening Hours</h4>
               <p><strong>Monday-Saturday:</strong> 10am - 2pm & 5:30pm - 9pm</p>
               <p><strong>Sunday:</strong> 5:30pm - 9pm</p>
               
-              <h4 className="text-[#07a1d9] text-2xl font-semibold mt-6 mb-4">Contact Info</h4>
+              <h4 className="text-[#9b6a55] text-2xl font-semibold mt-6 mb-4">Contact Info</h4>
               <p>67, Bholaram Ustad Marg, near Bhawar Kua, opposite Mamta namekeen store, Pipliya Rao, Indore, Madhya Pradesh 452001</p>
               <p className='py-4'>
-                <Phone className="inline mr-2 text-[#07a1d9]" />
-                <a href="tel:89827 07575" className="text-[#07a1d9] ">89827 07575</a>
+                <Phone className="inline mr-2 text-[#9b6a55]" />
+                <a href="tel:89827 07575" className="text-black ">89827 07575</a>
               </p>
               <p>
-                <Phone className="inline mr-2 text-[#07a1d9]" />
-                <a href="tel:88394 19269" className="text-[#07a1d9]">88394 19269</a>
+                <Phone className="inline mr-2 text-[#9b6a55]" />
+                <a href="tel:88394 19269" className="text-black">88394 19269</a>
               </p>
               <p className='py-4'>
-                <Mail className="inline mr-2 text-[#07a1d9]" />
-                <a href="mailto:dr.gattani.ankita@gmail.com" className="text-[#07a1d9]">dr.gattani.ankita@gmail.com</a>
+                <Mail className="inline mr-2 text-[#9b6a55]" />
+                <a href="mailto:dr.gattani.ankita@gmail.com" className="text-black">dr.gattani.ankita@gmail.com</a>
               </p>
               <p>
-                <Mail className="inline mr-2 text-[#07a1d9]" />
-                <a href="mailto:drsumitrathi04@gmail.com" className="text-[#07a1d9]">drsumitrathi04@gmail.com</a>
+                <Mail className="inline mr-2 text-[#9b6a55]" />
+                <a href="mailto:drsumitrathi04@gmail.com" className="text-black">drsumitrathi04@gmail.com</a>
               </p>
             </div>
           </div>
 
           <div className="lg:w-1/2 w-full p-4" data-aos="fade-left">
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h1 className="text-[#07a1d9] text-3xl font-semibold mb-4">Book Your Appointment</h1>
+              <h1 className="text-[#9b6a55] text-3xl font-semibold mb-4">Book Your Appointment</h1>
               <form id="contact_form" name="contact_form" action="includes/sendmail.html" method="post" novalidate="novalidate">
                 <div className="flex flex-wrap mb-4">
                   <div className="w-full sm:w-1/2 p-2">
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-4">
                   <input name="form_botcheck" className="form-control" type="hidden" value="" />
-                  <button type="submit" className="appointment-button1 py-3 px-5 mt-4 text-white bg-[#07a1d9] hover:bg-[#0594b8] rounded-lg">
+                  <button type="submit" className="appointment-button1 py-3 px-5 mt-4 text-white bg-[#9b6a55] hover:bg-[#0594b8] rounded-lg">
                     Send Message
                   </button>
                 </div>

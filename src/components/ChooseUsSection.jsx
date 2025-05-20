@@ -1,9 +1,6 @@
 import React from 'react';
 
-
 const ChooseUsSection = () => {
- 
-
   const reasons = [
     {
       id: 1,
@@ -31,31 +28,37 @@ const ChooseUsSection = () => {
     <section className="py-16 px-6 bg-white">
       <div className="max-w-4xl mx-auto text-center mb-10" data-aos="fade-up">
         <h2 className="text-2xl md:text-3xl font-bold uppercase">
-          WHY YOU SHOULD <span className="text-[#7a4f2c]">CHOOSE US ?</span>
+          WHY YOU SHOULD <span className="text-[#9b6a55]">CHOOSE US ?</span>
         </h2>
         <p className="mt-2 text-gray-700">
           YOUR SMILE IS OUR PRIORITY. WE ARE YOUR TRUSTED DENTAL EXPERTS.
         </p>
         <div className="mt-4 flex justify-center">
-          <img
+          {/* <img
             src="assets/images/title-icon.png"
             alt="Title Icon"
             loading="lazy"
             className="h-6"
-          />
+          /> */}
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto space-y-6">
+      {/* Cards layout */}
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3">
         {reasons.map((reason, index) => (
-          <p
+          <div
             key={reason.id}
-            className="text-gray-800 leading-relaxed text-[16px]"
+            className="bg-white border-4 hover:border-[#9b6a55] shadow-lg rounded-xl p-6 hover:shadow-xl transition duration-300"
             data-aos="fade-up"
             data-aos-duration={index < 3 ? 1000 : 800}
           >
-            <b>{reason.id}.</b> {reason.text}
-          </p>
+            <h3 className="text-xl font-semibold text-[#9b6a55] mb-2">
+              {reason.id}.
+            </h3>
+            <p className="text-gray-700 text-[15px] leading-relaxed">
+              {reason.text}
+            </p>
+          </div>
         ))}
       </div>
     </section>

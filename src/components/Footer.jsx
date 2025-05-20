@@ -2,15 +2,15 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#07a1d9] text-white py-10">
+    <footer className="bg-[#9b6a55] text-white py-10">
       <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-around gap-8">
         
         {/* Logo & Address */}
         <div className="w-full sm:w-[45%] lg:w-[22%]">
           <Link to="/" className="inline-block mb-3">
-            <img src="assets/images/LOGO.png" className="h-14" alt="DentCare Logo" />
+            <img src="assets/images/LOGO.png" className="h-14 bg-white" alt="DentCare Logo" />
           </Link>
-          <p className="text-sm">
+          <p className="text-md">
             67, Bholaram Ustad Marg,<br />
             near Bhawar Kua, opposite Mamta namekeen store,<br />
             Pipliya Rao, Indore,<br />
@@ -22,16 +22,16 @@ const Footer = () => {
         <div className="w-full sm:w-[45%] lg:w-[22%]">
           <h2 className="text-xl font-semibold mb-2">Latest Cases</h2>
           <ul className="text-sm space-y-1">
-            <li>General Dentistry <br /><span className="text-xs">Mar 08, 2015</span></li>
-            <li>Cosmetic Dentistry <br /><span className="text-xs">Mar 08, 2015</span></li>
-            <li>Restorative Dentistry <br /><span className="text-xs">Mar 08, 2015</span></li>
+            <li>General Dentistry <br /><span className="text-md">Mar 08, 2015</span></li>
+            <li>Cosmetic Dentistry <br /><span className="text-md">Mar 08, 2015</span></li>
+            <li>Restorative Dentistry <br /><span className="text-md">Mar 08, 2015</span></li>
           </ul>
         </div>
 
         {/* Quick Links */}
         <div className="w-full sm:w-[45%] lg:w-[22%]">
           <h2 className="text-xl font-semibold mb-2">Quick Links</h2>
-          <ul className="text-sm space-y-1">
+          <ul className="text-md space-y-1">
             {[
               { label: 'Home', path: '/' },
               { label: 'About', path: '/about' },
@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Opening Hours */}
         <div className="w-full sm:w-[45%] lg:w-[22%]">
           <h2 className="text-xl font-semibold mb-2">Opening Hours</h2>
-          <ul className="text-sm space-y-1">
+          <ul className="text-md space-y-1">
             <li>
               <strong>Mon - Sat:</strong><br />
               10am - 2pm<br />

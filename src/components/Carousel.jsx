@@ -99,7 +99,7 @@ const Carousel = () => {
       {/* Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/10 p-2 sm:p-3 rounded-full text-white hover:bg-[#07a1d9] opacity-0 group-hover:opacity-100 transition"
+        className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-white/10 p-2 sm:p-3 rounded-full text-white hover:bg-[#f5ba98] opacity-0 group-hover:opacity-100 transition"
         aria-label="Previous"
       >
         <ChevronLeft className="w-4 h-4 sm:w-6 sm:h-6" />
@@ -107,7 +107,7 @@ const Carousel = () => {
 
       <button
         onClick={nextSlide}
-        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/10 p-2 sm:p-3 rounded-full text-white hover:bg-[#07a1d9] opacity-0 group-hover:opacity-100 transition"
+        className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-white/10 p-2 sm:p-3 rounded-full text-white hover:bg-[#f5ba98] opacity-0 group-hover:opacity-100 transition"
         aria-label="Next"
       >
         <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6" />
@@ -120,7 +120,7 @@ const Carousel = () => {
             key={index}
             onClick={() => goToSlide(index)}
             className={`h-2 rounded-full transition-all duration-300 relative ${
-              index === active ? "w-12 bg-[#07a1d9]" : "w-3 bg-white/50"
+              index === active ? "w-12 bg-[#f5ba98]" : "w-3 bg-white/50"
             }`}
           />
         ))}
