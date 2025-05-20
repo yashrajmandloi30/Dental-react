@@ -3,12 +3,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const Carousel = () => {
   const slides = [
-    {
-      id: 1,
-      image: "/assets/images/denatal-banner/1.png",
-      heading: "Keep Your Teeth Healthy",
-      subheading: "Take The Best Quality Dental Treatment",
-    },
+    // {
+    //   id: 1,
+    //   image: "/assets/images/denatal-banner/1.png",
+    //   heading: "Keep Your Teeth Healthy",
+    //   subheading: "Take The Best Quality Dental Treatment",
+    // },
     {
       id: 2,
       image: "/assets/images/denatal-banner/2.png",
