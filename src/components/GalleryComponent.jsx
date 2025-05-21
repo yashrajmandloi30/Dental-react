@@ -1,17 +1,21 @@
 import React, { useState } from 'react';
 
 const images = [
-  "assets/images/gallery/new/IMG_6272.jpg",
-  "assets/images/gallery/new/IMG_6206.jpg",
-  "assets/images/gallery/new/IMG_6219.jpg",
+  "assets/images/latest-image/interior1.jpg",
+  "assets/images/latest-image/dr.team.avif",
+  "assets/images/latest-image/interior4.webp",
   "assets/images/gallery/new/IMG_6214.jpg",
+  "assets/images/latest-image/gallery1.jpg",
   "assets/images/gallery/new/IMG_6208.jpg",
   "assets/images/gallery/new/IMG_6210.jpg",
+  "assets/images/latest-image/interior3.webp",
   "assets/images/gallery/new/IMG_6243.jpg",
-  "assets/images/gallery/new/IMG_6285.jpg",
-  "assets/images/gallery/new/IMG_6287.jpg",
+
+  // "assets/images/gallery/new/IMG_6285.jpg",
+  // "assets/images/gallery/new/IMG_6287.jpg",
   "assets/images/gallery/new/IMG_6088.jpg",
   "assets/images/gallery/new/IMG_6081.jpg",
+  "assets/images/latest-image/interior2.jpg",
   "assets/images/gallery/new/IMG_6085.jpg",
   "assets/images/gallery/new/IMG_6077.jpg",
   "assets/images/gallery/new/IMG_6069.jpg",
@@ -25,7 +29,7 @@ const GalleryComponent = () => {
   const [selectedImage, setSelectedImage] = useState(images[0]);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
-  const [mousePosition, setMousePosition] = useState({ mx: 0, my: 0 });
+  // const [mousePosition, setMousePosition] = useState({ mx: 0, my: 0 });
 
   
 
@@ -51,12 +55,12 @@ const GalleryComponent = () => {
     setSelectedImage(images[prevIndex]);
   };
 
-  const handleMouseMove = (e) => {
-    const rect = e.target.getBoundingClientRect();
-    const mx = e.clientX - rect.left;
-    const my = e.clientY - rect.top;
-    setMousePosition({ mx, my });
-  };
+  // const handleMouseMove = (e) => {
+  //   const rect = e.target.getBoundingClientRect();
+  //   const mx = e.clientX - rect.left;
+  //   const my = e.clientY - rect.top;
+  //   // setMousePosition({ mx, my });
+  // };
 
   return (
     <div className="container mx-auto py-12 px-4">
@@ -92,7 +96,7 @@ const GalleryComponent = () => {
               src={selectedImage}
               alt="Fullscreen Image"
               className="w-full h-96 object-cover"
-              onMouseMove={handleMouseMove}
+              // onMouseMove={handleMouseMove}
               data-aos="zoom-in"
               data-aos-duration="1000"
             />
@@ -103,10 +107,10 @@ const GalleryComponent = () => {
               &times;
             </button>
 
-            {/* Mouse Position Overlay */}
+            {/* Mouse Position Overlay
             <div className="absolute top-4 left-4 text-white bg-black bg-opacity-60 px-2 py-1 rounded-md">
               {`X: ${mousePosition.mx}, Y: ${mousePosition.my}`}
-            </div>
+            </div> */}
 
             {/* Previous and Next Buttons */}
             <button

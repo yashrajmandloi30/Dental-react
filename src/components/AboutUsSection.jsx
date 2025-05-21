@@ -49,7 +49,7 @@ const AboutUsSection = () => {
       specialization: 'Dental & Oral Surgeon',
       reg: 'A-16596',
       experience: '15+ yrs.',
-      image: 'assets/images/gallery/new/IMG_6262.jpg',
+      image: 'assets/images/latest-image/dr.sumitrathi.jpg',
       details:
         'Expertise in Painless Single Sitting Root Canal, Implants, Dentures, Early Cancer Detection, Orthodontic Aligners.',
     },
@@ -59,7 +59,7 @@ const AboutUsSection = () => {
       specialization: 'Aesthetic & Cosmetic Consultant',
       reg: 'A-09662',
       experience: '11+ yrs.',
-      image: 'assets/images/gallery/new/IMG_6264.jpg',
+      image: 'assets/images/latest-image/dr.aankitarathi.jpg',
       details:
         'Expertise in Smile Designing, Veneers, Kids Dentistry, Tooth Whitening, Laser & Micro Dentistry.',
     },
@@ -145,7 +145,7 @@ const AboutUsSection = () => {
           <div className="lg:w-5/12" data-aos="zoom-in">
             <img
               className="rounded-lg object-cover w-full h-full max-h-[400px]"
-              src="assets/images/gallery/new/IMG_6267.jpg"
+              src="assets/images/latest-image/dr.both.avif"
               alt="Clinic"
             />
           </div>
