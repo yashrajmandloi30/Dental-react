@@ -110,7 +110,7 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <section className="py-12">
+    <section className="py-12 bg-[#f9f6f4]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-white bg-[#9b6a55] text-3xl py-2 px-2 rounded-xl font-bold inline-block mx-auto">
@@ -123,8 +123,8 @@ const Testimonial = () => {
             <div
               key={index}
               data-aos="fade-up"
-              data-aos-delay={`${index * 100}`} // staggered animation
-              className="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-xl transition-shadow duration-300"
+              data-aos-delay={`${index * 50}`} // staggered animation
+              className="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex justify-center mb-4">
                 <img

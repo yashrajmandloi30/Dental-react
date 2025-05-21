@@ -4,9 +4,9 @@ import { Smile, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+// bg-[#9b6a55]
   return (
-    <nav className="bg-[#9b6a55] shadow-sm sticky top-0 z-50 w-full px-4 lg:px-8 py-3">
+    <nav className="bg-blue-100 shadow-sm sticky top-0 z-50 w-full px-4 lg:px-8 py-3">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center text-white text-2xl font-bold">
@@ -23,7 +23,7 @@ const Navbar = () => {
         </button>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center space-x-6 text-white font-medium">
+        <div className="hidden lg:flex items-center space-x-6 text-[#9b6a55] font-medium">
           <Link to="/" className="hover:text-[#f5ba98]">Home</Link>
           <Link to="/about" className="hover:text-[#f5ba98]">About</Link>
           <Link to="/services" className="hover:text-[#f5ba98]">Our Service</Link>

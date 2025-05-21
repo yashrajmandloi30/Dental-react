@@ -67,58 +67,6 @@ const AboutUsSection = () => {
 
   return (
     <div>
-      {/* About Section */}
-      <div className="container mx-auto py-12 px-6" data-aos="fade-up">
-        <div className="flex flex-col lg:flex-row gap-8">
-          <div className="lg:w-7/12">
-            <h1 className="text-3xl lg:text-4xl font-bold mt-2">
-              The World's Best Dental Clinic That You Can Trust
-            </h1>
-            <p className="mt-4 text-gray-700">
-              Step into the world of Shri Balaji Multispeciality Dental Clinic, where your smile is our priority. We blend advanced technology with
-              patient-centered care for a comfortable and satisfying dental experience.
-            </p>
-          </div>
-          <div className="lg:w-5/12" data-aos="zoom-in">
-            <img
-              className="rounded-lg object-cover w-full h-full max-h-[400px]"
-              src="assets/images/gallery/new/IMG_6267.jpg"
-              alt="Clinic"
-            />
-          </div>
-        </div>
-      </div>
-
-      {/* Tab Section */}
-      <div className="container mx-auto px-6 mb-10 flex flex-col lg:flex-row gap-8" data-aos="fade-right">
-        <div className="lg:w-5/12">
-          <img
-            src="assets/images/gallery/new/IMG_6272.jpg"
-            alt="Info"
-            className="w-full h-[350px] object-cover"
-          />
-        </div>
-        <div className="lg:w-7/12 bg-white shadow-lg p-6 rounded">
-          <ul className="flex space-x-6 border-b mb-4 text-sm font-semibold text-[#9b6a55]">
-            {tabs.map(tab => (
-              <li key={tab.id}>
-                <button
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`py-2 border-b-2 transition duration-200 ${
-                    activeTab === tab.id ? 'border-[#9b6a55]' : 'border-transparent'
-                  }`}
-                >
-                  {tab.title}
-                </button>
-              </li>
-            ))}
-          </ul>
-          <div className="text-gray-700 transition-opacity duration-500">
-            {tabs.find(tab => tab.id === activeTab).content}
-          </div>
-        </div>
-      </div>
-
       {/* Doctor Section */}
       <section className="bg-[#f6f4f1] py-16 px-6">
         <div className="container mx-auto">
@@ -182,6 +130,60 @@ const AboutUsSection = () => {
           </div>
         </div>
       </section>
+      {/* About Section */}
+      <div className="container mx-auto py-12 px-6" data-aos="fade-up">
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="lg:w-7/12">
+            <h1 className="text-3xl lg:text-4xl font-bold mt-2">
+              The World's Best Dental Clinic That You Can Trust
+            </h1>
+            <p className="mt-4 text-gray-700">
+              Step into the world of Shri Balaji Multispeciality Dental Clinic, where your smile is our priority. We blend advanced technology with
+              patient-centered care for a comfortable and satisfying dental experience.
+            </p>
+          </div>
+          <div className="lg:w-5/12" data-aos="zoom-in">
+            <img
+              className="rounded-lg object-cover w-full h-full max-h-[400px]"
+              src="assets/images/gallery/new/IMG_6267.jpg"
+              alt="Clinic"
+            />
+          </div>
+        </div>
+      </div>
+       
+
+      {/* Tab Section */}
+      <div className="container mx-auto px-6 mb-10 flex flex-col lg:flex-row gap-8" data-aos="fade-right">
+        <div className="lg:w-5/12">
+          <img
+            src="assets/images/gallery/new/IMG_6272.jpg"
+            alt="Info"
+            className="w-full h-[350px] object-cover"
+          />
+        </div>
+        <div className="lg:w-7/12 bg-white shadow-lg p-6 rounded">
+          <ul className="flex space-x-6 border-b mb-4 text-sm font-semibold text-[#9b6a55]">
+            {tabs.map(tab => (
+              <li key={tab.id}>
+                <button
+                  onClick={() => setActiveTab(tab.id)}
+                  className={`py-2 border-b-2 transition duration-200 ${
+                    activeTab === tab.id ? 'border-[#9b6a55]' : 'border-transparent'
+                  }`}
+                >
+                  {tab.title}
+                </button>
+              </li>
+            ))}
+          </ul>
+          <div className="text-gray-700 transition-opacity duration-500">
+            {tabs.find(tab => tab.id === activeTab).content}
+          </div>
+        </div>
+      </div>
+
+     
     </div>
   );
 };
