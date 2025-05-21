@@ -94,7 +94,7 @@ const LatestCases = () => {
                   <img
                     src={item.image}
                     alt={item.doctor}
-                    className="w-full h-52 object-cover"
+                    className="w-full h-52 object-cover rounded-t-xl"
                     loading="lazy"
                   />
                   <div className="p-4">

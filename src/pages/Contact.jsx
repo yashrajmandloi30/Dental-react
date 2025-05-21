@@ -15,7 +15,7 @@ const Contact = () => {
 
         <div className="flex flex-wrap">
           <div className="lg:w-1/2 w-full p-4" data-aos="fade-right">
-            <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="bg-white p-6 rounded-xl shadow-md">
               <h4 className="text-[#9b6a55] text-2xl font-semibold mb-4">Opening Hours</h4>
               <p><strong>Monday-Saturday:</strong> 10am - 2pm & 5:30pm - 9pm</p>
               <p><strong>Sunday:</strong> 5:30pm - 9pm</p>
@@ -42,20 +42,20 @@ const Contact = () => {
           </div>
 
           <div className="lg:w-1/2 w-full p-4" data-aos="fade-left">
-            <div className="bg-white p-6 rounded-lg shadow-lg">
+            <div className="bg-white p-6 rounded-xl shadow-lg">
               <h1 className="text-[#9b6a55] text-3xl font-semibold mb-4">Book Your Appointment</h1>
               <form id="contact_form" name="contact_form" action="includes/sendmail.html" method="post" novalidate="novalidate">
                 <div className="flex flex-wrap mb-4">
                   <div className="w-full sm:w-1/2 p-2">
-                    <input name="form_name" className="form-control w-full p-3 border border-gray-300 rounded-lg" type="text" placeholder="Enter Full Name" required aria-required="true" />
+                    <input name="form_name" className="form-control w-full p-3 border border-gray-300 rounded-xl" type="text" placeholder="Enter Full Name" required aria-required="true" />
                   </div>
                   <div className="w-full sm:w-1/2 p-2">
-                    <input name="form_email" className="form-control w-full p-3 border border-gray-300  rounded-lg" type="text" placeholder="Enter Number" required aria-required="true" />
+                    <input name="form_email" className="form-control w-full p-3 border border-gray-300  rounded-xl" type="text" placeholder="Enter Number" required aria-required="true" />
                   </div>
                 </div>
                 <div className="flex flex-wrap mb-4">
                   <div className="w-full sm:w-1/2 p-2">
-                    <select id="car_select" name="car_select" className="form-control w-full p-3 border border-gray-300 rounded-lg" required aria-required="true">
+                    <select id="car_select" name="car_select" className="form-control w-full p-3 border border-gray-300 rounded-xl" required aria-required="true">
                       <option value="">- Select Your Services -</option>
                       <option value="General Dentistry">General Dentistry</option>
                       <option value="Cosmetic Dentistry">Cosmetic Dentistry</option>
@@ -68,15 +68,15 @@ const Contact = () => {
                     </select>
                   </div>
                   <div className="w-full sm:w-1/2 p-2">
-                    <input name="reservation_date" className="form-control w-full p-3 border border-gray-300 rounded-lg" type="datetime-local" placeholder="Appointment Date" />
+                    <input name="reservation_date" className="form-control w-full p-3 border border-gray-300 rounded-xl" type="datetime-local" placeholder="Appointment Date" />
                   </div>
                 </div>
                 <div className="mb-4">
-                  <textarea name="form_message" className="form-control w-full p-3 border border-gray-300 rounded-lg" rows="5" placeholder="Enter Message" aria-required="true"></textarea>
+                  <textarea name="form_message" className="form-control w-full p-3 border border-gray-300 rounded-xl" rows="5" placeholder="Enter Message" aria-required="true"></textarea>
                 </div>
                 <div className="mb-4">
-                  <input name="form_botcheck" className="form-control" type="hidden" value="" />
-                  <button type="submit" className="appointment-button1 py-3 px-5 mt-4 text-white bg-[#9b6a55] hover:bg-[#0594b8] rounded-lg">
+                  <input name="form_botcheck" className="form-control " type="hidden" value="" />
+                  <button type="submit" className="appointment-button1 py-3 px-5 mt-4 text-white bg-[#9b6a55] hover:bg-[#ca937b] rounded-xl">
                     Send Message
                   </button>
                 </div>
@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-     <section className="container mx-auto pb-40">
+     <section className="container mx-auto ">
       <div data-aos="fade-up" data-aos-duration="800">
         <div className="w-full">
           <iframe

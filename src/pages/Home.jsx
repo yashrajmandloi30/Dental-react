@@ -15,7 +15,7 @@ import Testimonial from '../components/TestimonialComponent'
 
 const Home = () => {
   return (
-   <>
+   <div className='mt-4'>
       <HeroSection/>
       <ServicesSection/>
       <PracticeSection/>
@@ -32,7 +32,7 @@ const Home = () => {
       
     
 
-   </> 
+   </div> 
   
   )
 }

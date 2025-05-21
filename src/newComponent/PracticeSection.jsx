@@ -12,14 +12,13 @@ const PracticeSection = () => {
             We provide top quality healthcare.
           </h2>
           <p className="text-gray-500 text-sm mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            Praesent hic neque quam id leo. Non diam phasellus vestibulum
-            lorem. Scelerisque felis imperdiet proin fermentum.
+            We are committed to delivering exceptional healthcare services with
+            compassion and precision. Our expert team ensures personalized care
+            that prioritizes your well-being and recovery.
           </p>
 
           {/* Feature 1 */}
-          <div className="flex items-center mt-6 mb-1">
+          <div className="flex items-center mt-6 mb-3">
             <div className="bg-[#9b6a55] p-3 rounded-full mr-4 transform hover:scale-110 transition-transform duration-300">
               <Stethoscope className="text-white w-5 h-5" />
             </div>
@@ -28,8 +27,9 @@ const PracticeSection = () => {
                 Highly Professional Staff
               </h3>
               <p className="text-gray-500 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
+                Our highly professional staff is dedicated, experienced, and
+                committed to providing exceptional care with compassion and
+                expertise.
               </p>
             </div>
           </div>
@@ -44,8 +44,8 @@ const PracticeSection = () => {
                 Quality Control Systems
               </h3>
               <p className="text-gray-500 text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor.
+                We use advanced Quality Control Systems to ensure safe,
+                accurate, and consistent healthcare services.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const PracticeSection = () => {
 
         {/* Right image and emergency box */}
         <div className="md:col-span-6 mt-8 md:mt-0 relative">
-          <div className="rounded-full overflow-hidden relative h-[350px] md:h-[400px] w-full">
+          <div className="rounded-3xl overflow-hidden relative h-[350px] md:h-[400px] w-full">
             <img
               src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
               alt="Modern dental office with equipment"

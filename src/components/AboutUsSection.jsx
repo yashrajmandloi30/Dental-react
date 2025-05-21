@@ -144,7 +144,7 @@ const AboutUsSection = () => {
           </div>
           <div className="lg:w-5/12" data-aos="zoom-in">
             <img
-              className="rounded-lg object-cover w-full h-full max-h-[400px]"
+              className="rounded-xl object-cover w-full h-full max-h-[400px] "
               src="assets/images/latest-image/dr.both.avif"
               alt="Clinic"
             />
@@ -159,7 +159,7 @@ const AboutUsSection = () => {
           <img
             src="assets/images/gallery/new/IMG_6272.jpg"
             alt="Info"
-            className="w-full h-[350px] object-cover"
+            className="rounded-xl w-full h-[350px] object-cover"
           />
         </div>
         <div className="lg:w-7/12 bg-white shadow-lg p-6 rounded">

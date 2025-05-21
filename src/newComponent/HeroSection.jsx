@@ -35,7 +35,7 @@ const HeroSection = () => {
           <img
             src="/assets/images/latest-image/dr.both.png"
             alt="Dental professional in clinic"
-            className="w-full h-full object-cover "
+            className="w-full h-full object-cover rounded-xl "
           />
         </div>
       </div>
