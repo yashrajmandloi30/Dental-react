@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="w-full bg-blue-50 font-sans">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6  min-h-[80vh]">
+      <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 px-8 items-center gap-10   min-h-[80vh]">
         {/* Text Content */}
         <div className="flex flex-col space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-[#9b6a55]">
@@ -33,7 +33,7 @@ const HeroSection = () => {
         {/* Image Content */}
         <div className="w-full h-64 sm:h-80 md:h-[400px] lg:h-[450px] xl:h-[500px]">
           <img
-            src="/assets/images/latest-image/herosmile2.jpg"
+            src="/assets/images/latest-image/dr.both.png"
             alt="Dental professional in clinic"
             className="w-full h-full object-cover "
           />

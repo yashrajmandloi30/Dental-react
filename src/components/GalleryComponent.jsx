@@ -10,9 +10,8 @@ const images = [
   "assets/images/gallery/new/IMG_6210.jpg",
   "assets/images/latest-image/interior3.webp",
   "assets/images/gallery/new/IMG_6243.jpg",
-
-  // "assets/images/gallery/new/IMG_6285.jpg",
-  // "assets/images/gallery/new/IMG_6287.jpg",
+ // "assets/images/gallery/new/IMG_6285.jpg",
+ // "assets/images/gallery/new/IMG_6287.jpg",
   "assets/images/gallery/new/IMG_6088.jpg",
   "assets/images/gallery/new/IMG_6081.jpg",
   "assets/images/latest-image/interior2.jpg",
